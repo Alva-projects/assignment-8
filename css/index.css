@@ -16,7 +16,6 @@
     display: block;
 }
 .card-name {
-    display: block;
     background-color: green;
 }
 .card-email {
@@ -29,7 +28,6 @@
 }
 .card-message {
     background-color: chartreuse;
-    display: block;
 }
 .card-btn {
     display: flex;
@@ -40,7 +38,8 @@ input {
     cursor: text;
 }
 label {
-    color: #FFFF;
+    color: #ff2424ff;
+    display: block;
 }
 button {
     border: none;

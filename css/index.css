@@ -36,10 +36,12 @@
 }
 input {
     cursor: text;
+    margin-bottom: 5px;
 }
 label {
     color: #ff2424ff;
     display: block;
+    margin-bottom: 10px;
 }
 button {
     border: none;

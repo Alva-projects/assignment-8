@@ -2,6 +2,9 @@ body {
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .container {
     max-width:958px;
@@ -11,48 +14,46 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(to right, 
+    #BE0909 0%, #BE0909 63%, #FFB039 63%, #FFB039 100%);
     background-color: #BE0909;
 }
 .card-text {
     max-width:609px;
     width: 100%;
-    background-color: rgb(0, 217, 255);
-    padding-left: 30px;
+    margin-left: 50px;
     display: block;
-}
-.card-name {
-    background-color: green;
-}
-.card-email {
-    display: block;
-    background-color: yellow;
-}
-.card-message-title {
-    background-color: violet;
-    
-}
-.card-message {
-    background-color: chartreuse;
 }
 .card-btn {
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: end;
 }
 input {
     cursor: text;
-    margin-bottom: 5px;
+    margin-bottom: 40px;
+    outline: 0px;
+    border: none;
+    border-bottom: solid 1px white;
+    background: transparent;
+    background-color: inherit;
+    color: wheat;
+    font-size: 18px;
+}
+::placeholder {
+    color: wheat;
 }
 label {
-    color: #ff2424ff;
+    color: rgb(255, 255, 255);
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: start;
+    cursor: pointer;
 }
 button {
     border: none;
-    margin-top: 5px;
+    margin-top: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #468189;
@@ -63,8 +64,8 @@ button {
     max-height: 48px ;
     height: 100%;
     border-radius: 40px;
+    cursor: pointer;
 }
-
 .roboto-uniquifier {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;

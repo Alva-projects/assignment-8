@@ -1,8 +1,8 @@
 body {
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
+    background-color: #b4bfc0;
     font-style: normal;
-    display: flex;
     align-items: center;
     justify-content: center;
 }
